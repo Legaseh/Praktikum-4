@@ -1,0 +1,88 @@
+body{
+    background-image: url(cat.jpg);
+    background-repeat: repeat;
+    background-size: 250px;
+    font-family: Arial;
+}
+table{
+    margin: auto;
+    padding: 0px;
+    background-color: white;
+    width: 65%;
+    border-radius: 10px;
+}
+
+span{
+    color: red;
+}
+.frontend{
+    font-weight: 500;
+    color: black;
+}
+img{
+    border-radius: 10px;
+    margin: 20px 92px 0px 10px;
+}
+.nama {
+    margin: 0px;
+}
+h1{
+    margin: 4px 0px 4px 0px ;
+    font-size: 20px;
+    padding: 5px;
+}
+
+.skill{
+    margin: 0px 0px 4px 0px;
+}
+
+li{
+    list-style-type: katakana;
+    margin: 0px;
+}
+.nempel{
+    vertical-align: top;
+    padding: 40px 10px 10px 50px;
+    margin: 0px;
+}
+td{
+    padding: 20px ;
+    margin: 10px;
+}
+.atas{
+    background-color: cadetblue;
+    font-family: Arial, sans-serif;
+    border-radius: 10px;
+    height: 80px;
+    color: white;
+    font-size: small;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+}
+a.marnat{
+    color: red;
+}
+a:hover.marnat{
+    color: white;
+    background-color: white;
+    font-size: medium;
+}
+a:hover{
+    font-size: 20px;
+    background: pink;
+}
+.project{
+    color: rgb(90, 197, 162);
+    
+}
+.bawah{
+    vertical-align: top;
+    padding: 0px;
+    margin: 0px;
+}
+.pro{
+    padding: 25px 0px 0px 50px;
+    
+}
