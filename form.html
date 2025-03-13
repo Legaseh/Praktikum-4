@@ -7,31 +7,33 @@
     <link rel="stylesheet" href="styleform.css">
 </head>
 <body>
-    <div>
+    <form class="form">
         <h1>Registration Form</h1>
-        <form class="form">
-            Name: <br>
-            <input type="text" class="input-field" placeholder="" ><br>
-            <br>Email: <br>
-            <input type="email" class="input-field" placeholder=""><br>
-            <br>Password: 
-            <input type="password" class="input-field" placeholder=""><br> 
-            <br>Age: <br>
-            <input type="number" class="input-field" placeholder=""><br>
-            
-            <br><label>Gender:</label><br>
-            <input type="radio" name="gender" value="male"> Male
-            <input type="radio" name="gender" value="female"> Female
-            <input type="radio" name="gender" value="other"> Other<br> <br>
-            Course <br>
-            <select name="track">
-                <option value="track1">Teknik Informatika</option>
-                <option value="track2">Sistem Informasi</option>
-                <option value="track3">Sistem Komputer</option>
-            </select><br>
-            
-            <input type="button" value="Register" class="button" >
-        </form>
-    </div>
+        <span>Name:</span> <br>
+        <input type="text" class="input-field" placeholder="" ><br>
+        <br><span>Email:</span> <br>
+        <input type="email" class="input-field" placeholder=""><br>
+        <br><span>Password:</span> 
+        <input type="password" class="input-field" placeholder=""><br> 
+        <br><span>Age:</span> <br>
+        <input type="number" class="input-field" placeholder=""><br>
+        
+        <br><span>Gender:</span><br>
+        <span>
+        <input type="radio" name="gender" value="male"> Male
+        <input type="radio" name="gender" value="female"> Female
+        <input type="radio" name="gender" value="other"> Other<br> <br>
+        <span>Course</span> <br>
+        </span>
+        <span>
+        <select name="track">
+            <option value="track1">Teknik Informatika</option>
+            <option value="track2">Sistem Informasi</option>
+            <option value="track3">Sistem Komputer</option>
+        </select><br>
+        </span>
+        <input type="button" value="Register" class="button" >
+    </form>
+
 </body>
 </html>
